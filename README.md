@@ -1,3 +1,12 @@
+# Docker & Microsserviços
+
+No contexto da computação em núvem, tem se tornado commum a "containerização" de serviços, neste caso, os microsserviços em núvem são compostos por um arquivo de modelo (dockerfile), arquivos de configuração dos servidores (nginx, apache ou qualquer outro), configuração de dados (mysql, nfs ou outro para a camada de persistência remota) e os arquivos do serviço que podem ser em linguagens diversas visto que cada microsserviço é independente e se comunica utilizando algum padrão como JSON.
+
+O fato de ser independente e criar uma imagem com os softwares necessários, torna o microsserviço passível de ser executado em múltiplas instâncias conforme a necessidade e carga.
+
+
+---
+
 Docker: Utilização prática no cenário de Microsserviços
 Denilson Bonatti, Instrutor - Digital Innovation One
 
